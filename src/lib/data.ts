@@ -1,4 +1,10 @@
 export type ExperienceItem = {
+  role: string;
+  company: string;
+  period: string;
+  points: string[];
+};
+
 export const EXPERIENCE: ExperienceItem[] = [
 {
 role: "Operations Manager",
